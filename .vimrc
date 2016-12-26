@@ -11,19 +11,24 @@ set t_Co=256                " 256 colors in terminal
 set number                  " show line numbers
 set showcmd                 " shows last entered command
 
-" Search
-set incsearch               " incremental search
-set hlsearch                " highlight search results
-set ignorecase              " search ignoring text case
-set smartcase               " search case sensitive if search text contains different case
-
 set list                    " show tabs, end of lines, etc
 set listchars=tab:>-,trail:· " change how spaces are shown
 
 set cursorline              " highlight current line
 set wildmenu                " visual autocomplete for command menu
-set lazyredraw              " redraw only if needed (speed up macros execution)
 set showmatch               " highlight matching parenthesis
+" }}}
+
+" "Search" {{{
+set ignorecase              " search ignoring text case
+set smartcase               " search case sensitive if search text contains different case
+set incsearch               " incremental search
+set hlsearch                " highlight search results
+" }}}
+
+" "Behaviour" {{{
+set autoread                " reload file if it has been changed from outside
+set lazyredraw              " redraw only if needed (speed up macros execution)
 " }}}
 
 " "Other" {{{
