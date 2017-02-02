@@ -29,6 +29,7 @@ set hlsearch                " highlight search results
 " "Behaviour" {{{
 set autoread                " reload file if it has been changed from outside
 set lazyredraw              " redraw only if needed (speed up macros execution)
+set autoindent              " use indentation from previous line
 " }}}
 
 " "Other" {{{
