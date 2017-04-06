@@ -1,0 +1,9 @@
+[user]
+	email = vitaly.magas@gmail.com
+	name = rand0m
+[alias]
+	co = checkout
+[diff]
+	tool = vimdiff
+[core]
+	editor = vim
